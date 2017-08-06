@@ -14,12 +14,13 @@ import {
 import Bananas from './props';
 import { Greeting, LotsOfGreetings }from './greeting';
 import {Blink, BlinkApp} from './blink';
+import {LotsofStyles} from './style';
 
 export default class AwesomeProject extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <BlinkApp/>
+        <LotsofStyles/>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
